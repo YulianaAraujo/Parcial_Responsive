@@ -1,6 +1,22 @@
-@media (min-width: 1000px){
+@media (min-width: 1024px){
     .container{
-        background:greenyellow;
-        margin:0 10em;  
+        margin:0 5em;  
+    }
+
+    .header{
+        width: 95.8%;
+    }
+
+    #nav ul, li, a{   
+        font-size: 2.0vw;
+        padding: 0px 1vmax 0px 0.8vmax; 
+    }
+
+    .Z-Rojo p{
+        font-size:  1.86vw;
+    }
+    
+    .Z-Rojo h5{
+        font-size:  2.3vw;
     }
 }
