@@ -12,21 +12,21 @@
 }
 
 .header {
-  padding: 2em 1.5em;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: var(--blanco);
-  border-top: 1.2vmax solid var(--rojo);
-}
+    padding: 2em 1.5em;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--blanco);
+    border-top: 1.2vmax solid var(--rojo);
+  }
 
-.logo {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(2, auto);
-  gap: 0.5em;
-}
+  .logo {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 0.5em;
+  }
 
 .L1 {
   font-family: "Lato-Light";
@@ -41,15 +41,19 @@
 }
 
 #nav ul,li,a {
-  display: inline;
-  padding: 0px 1vmax 0px 0.2vmax;
-  margin-right: 0.3vmax;
-  color: var(--azuloscuro);
-  font-family: "Lato-Regular";
-  font-size: 3vw;
-  text-decoration: none;
-}
-
+    display: inline;
+    padding: 0px 1vmax 0px 0.2vmax;
+    margin-right: 0.3vmax;
+    color: var(--azuloscuro);
+    font-family: "Lato-Regular";
+    font-size: 3vw;
+    text-decoration: none;
+  }
+  
+  #nav a:hover {
+    color: var(--rojo);
+    text-decoration: underline;
+  }
 #nav a:hover {
   color: var(--rojo);
   text-decoration: underline;
@@ -94,7 +98,7 @@ img {
     padding:  1.5vmax 3.7vmax;
 }
 
-.Z-Rojo p{
+.ZRp-1{
     font-family: "Lato-Regular";
     color: var(--blanco);
     font-size:  2.15vw;
@@ -102,7 +106,7 @@ img {
     word-spacing: 0.2vw;
 }
 
-.Z-Rojo h5{
+.ZRt-1{
     font-family: "Lato-Regular";
     color: var(--blanco);
     font-size:  2.7vw;
@@ -144,7 +148,7 @@ img {
 
 .p{
     font-family: 'Lato-Light';
-    font-size:  1.9vw;
+    font-size:  2.48vw;
     color: var(--grisclaro);
     text-align: justify;
     margin: 1vmax 0vmax 1.9vmax 0vmax;
@@ -156,7 +160,7 @@ img {
     font-size:  1.9vw;
     background-color: var(--rojo);
     color:var(--blanco);
-    padding: 0.8vmax 2.3vmax 0.8vmax 2.3vmax;
+    padding: 0.8vmax 2.8vmax 0.8vmax 2.8vmax;
 }
 
 .Z-Azul{
@@ -180,3 +184,140 @@ img {
     text-align-last: center;
     line-height : 2.5vw;
 }
+
+.J{
+    margin: 1.5vmax 1.5vmax 6vmax 1.5vmax;
+    display: grid;
+    grid-template-columns: repeat(3, 32.4%);
+    grid-template-rows: repeat(1, auto);
+    gap: 1.2vw;
+}
+
+.p-2{
+    font-family: 'Lato-Light';
+    font-size:  2.3vw;
+    color: var(--grisclaro);
+    text-align: justify;
+    margin: 1vmax 0vmax 1.9vmax 0vmax;
+    line-height : 3vmin;
+}
+
+.ZRt-2{
+    font-family: "Lato-Regular";
+    color: var(--blanco);
+    font-size:  2.7vw;
+    text-align: center;
+    margin: 5.5vmax 1.5vmax 0.5vmax 1.5vmax;
+}
+
+.ZRp-2{
+    font-family: "Lato-Regular";
+    color: var(--blanco);
+    font-size:  2.15vw;
+    word-spacing: 0.2vw;
+    text-align: center;
+    line-height : 3vmin;
+    margin: 1vmax 1.5vmax 5vmax 1.5vmax;
+}
+/*
+footer{
+    background-color: #2c4655;
+    margin-top: 5vmax;
+    display: grid;
+    grid-template-columns: repeat(2, 10%), 30%;
+    grid-template-rows: repeat(3, auto);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.KIT{
+    padding: 2vw ;
+    grid-area: 1/1/2/3;
+}
+
+.CU{
+    padding: 2vw ;
+    grid-area: 1/2/2/3;
+}
+
+.SM{
+    grid-area: 1/3/2/3;
+}
+
+.CR{
+    grid-area: 2/1/3/4;
+}
+
+.KIT H6{
+    font-size: 1.5vw;
+    font-family: "Lato-Regular";
+    color: var(--blanco);
+    text-decoration: underline;
+}
+
+.KIT ul,li {
+    display: block;
+    text-decoration: none;
+    margin-top: 0.8vmax;
+}
+
+.KIT a {
+    font-family: "Lato-Regular";
+    color: var(--blanco);
+    font-size: 1.8vw;
+    text-decoration: none;
+}
+.KIT a:hover {
+    text-decoration: underline;
+}
+
+.CU h6{
+    font-size: 1.5vw;
+    font-family: "Lato-Regular";
+    color: var(--blanco);
+    text-decoration: underline; 
+}
+
+.CU ul,li,a {
+    display: block;
+    padding: 0px 1vmax 0px 0.2vmax;
+    margin-right: 0.3vmax;
+    color: var(--blanco);
+    font-family: "Lato-Regular";
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+.CU a:hover {
+    text-decoration: underline;
+}
+
+
+.icon{
+    width: 5%;
+    height: auto;
+}
+
+.SM P{
+    color: var(--blanco);
+    font-family: "Lato-Regular"
+}
+
+.CR{
+    background-color: var(--rojo);
+    padding: 2vmax 0;
+    margin: 0px 0vmax 30px 0vmax;
+}
+
+.CR p{
+    text-align: center;
+    color: var(--blanco);
+    font-family: "Lato-Bold";
+    font-size: 1.8vw;
+}
+
+.Social-icon{
+    display: flex;
+    flex-direction: row;
+}
+*/
