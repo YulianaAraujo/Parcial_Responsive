@@ -19,6 +19,18 @@
     padding: 0px 0.2vmax 0px 0.5vmax;
     font-size: 3.2vw;
   }
+  #nav input,label{
+    display: unset;
+  }
+
+  #nav ul{
+    display: none;
+  }
+
+  #nav input:checked  ~ ul{
+    position: absolute;
+    display:block;
+  }
 
   .OBN {
     margin: 0.5%  1.5%;
