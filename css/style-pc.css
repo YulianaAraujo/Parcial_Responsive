@@ -14,8 +14,8 @@
     }
 
     .A a{
-        font-size: 2.6vw;  
-        padding:  3% 43.78% 3% 8%; 
+        font-size: 2.3vw; 
+        padding:  1vmax 20vmax 1.5vmax 1.8vmax;
     }
     
      
@@ -37,10 +37,24 @@
         margin: 1vmax 0vmax 2.4vmax 0vmax;
     }
 
-    .p-2{
-        font-size:  1.8vw;
-        line-height : 3.1vmin;
+    .t-2{
+        font-size:  2.9vw;
     }
 
+    .p-2{
+        font-size:  2vw;
+        line-height : 3.8vmin;
+    }
 
+    .ZRt-2{
+        font-size:  3.4vw;
+        margin: 5.5vmax 1.5vmax 0.5vmax 1.5vmax;
+    }
+    
+    .ZRp-2{
+        font-size:  2vw;
+        word-spacing: 0.56vw;
+        line-height : 3.8vmin;
+        margin: 0vmax 0vmax 5vmax 0vmax;
+    }
 }
