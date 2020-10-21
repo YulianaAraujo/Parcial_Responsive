@@ -6,6 +6,7 @@
   .logo {
     gap: 0.1em;
   }
+
   .L1 {
     font-size: 4vw;
   }
@@ -13,137 +14,143 @@
   .L2 {
     font-size: 4vw;
   }
-
-  #nav ul,li,a {
-    margin: 0.5vmax 0px;
-    padding: 0px 0.2vmax 0px 0.5vmax;
-    font-size: 3.2vw;
+  #nav {
+    width: 8%;
   }
-  #nav input,label{
+
+  #nav li {
+    display: block;
+    background: var(--blanco);
+    padding: 2vmax 0px 2vmax 0px;
+    border-bottom: 0.5vmax solid var(--rojo);
+  }
+
+  #nav a{
+    padding: 2vmax 9vmax 2vmax 9vmax;
+    font-size: 2.5vh;
+    text-align: center;
+  }
+
+  #nav label {
     display: unset;
+  
   }
-
-  #nav ul{
+  #nav input {
+    display: none;
+    
+    
+  }
+  #nav ul {
     display: none;
   }
 
-  #nav input:checked  ~ ul{
-    position: absolute;
-    display:block;
+
+  #nav input:checked ~ ul {
+    display: block;
+    position:absolute;
+    right: 0.5%;
   }
 
   .OBN {
-    margin: 0.5%  1.5%;
+    margin: 0.5% 1.5%;
     display: flex;
     flex-direction: column;
   }
 
-  .Paisaje{
+  .Paisaje {
     margin: 2%;
-}
+  }
 
-.Paisaje img {
+  .Paisaje img {
     grid-area: 1/1/3/3;
-}
+  }
 
-.Paisaje h5 {
-  padding:  1vmax 1.5vmax;
-  grid-area: 2/1/2/3;
-  font-size: 5vw;  
-}
+  .Paisaje a {
+    padding: 1.5vmax 4vmax;
+    grid-area: 2/1/2/3;
+    font-size: 5vw;
+  }
 
-.Z-Rojo p{
-    font-family: "Lato-Regular";
-    color: var(--blanco);
-    font-size:  3.8vw;
-}
+  .ZRt-1 {
+    font-size: 3.5vw;
+  }
 
-.ZRt-1{
-    font-family: "Lato-Regular";
-    color: var(--blanco);
-    font-size:  3.5vw;
-}
+  .ZRp-1 {
+    font-size: 3vw;
+    line-height: 3.8vw;
+  }
 
-.ZRp-1{
-    font-size:  3.8vw;
-}
-
-.Z-Rojo h5{
-    font-size:  4vw;
-}
-
-.S-1{
+  .S-1 {
     display: flex;
     flex-direction: column;
-}
-.S-2{
+  }
+  .S-2 {
     display: flex;
     flex-direction: column;
     margin-top: 5vw;
-}
-.S-3{
+  }
+  .S-3 {
     display: flex;
     flex-direction: column;
     margin: 5vw 0vw 5vw 0vw;
-}
+  }
 
-.t{
-    font-size:  5vw;
-}
+  .t {
+    font-size: 5vw;
+  }
 
-.p{
-    font-size:  4vw;
-    line-height : 5vw;
-}
+  .p {
+    font-size: 4vw;
+    line-height: 5vw;
+  }
 
-.RM{
-    font-size:  4.2vw;
+  .RM {
+    font-size: 4.2vw;
     padding: 0.8vmax 2.3vmax 0.8vmax 2.3vmax;
-}
+  }
 
-.Z-Azul{
+  .Z-Azul {
     padding: 10vw 5vw;
-}
+  }
 
-.Z-Azul h2{
-    font-size:  4.8vw;
-}
+  .Z-Azul h2 {
+    font-size: 4.8vw;
+  }
 
-.Z-Azul p{
-    font-size:  3.8vw;
-    line-height : 5.5vw;
-}
+  .Z-Azul p {
+    font-size: 3.8vw;
+    line-height: 5.3vw;
+  }
 
-.J{
+  .J {
     display: flex;
     flex-direction: column;
-}
+  }
 
-.p-2{
-    font-size:  4vw;
-    line-height : 5vw;
+  .p-2 {
+    font-size: 4vw;
+    line-height: 5vw;
     margin: 1.5vw 0vw 4vw 0vw;
-}
+  }
 
-.J-1{
+  .J-1 {
     margin: 2.5vw 0vw 2.5vw 0vw;
-}
-.J-2{
+  }
+  .J-2 {
     margin: 2.5vw 0vw 2.5vw 0vw;
-}
-.J-3{
+  }
+  .J-3 {
     margin: 2.5vw 0vw 2.5vw 0vw;
-}
+  }
 
-.ZRt-2{
-    font-size:  5vw;
+  .ZRt-2 {
+    font-size: 5vw;
     margin: 5vmax 1vmax 0.5vmax 1vmax;
-}
+  }
 
-.ZRp-2{
-    font-size:  4vw;
-    line-height : 5vmin;
+  .ZRp-2 {
+    font-size: 4vw;
+    line-height: 5vmin;
     margin: 1vmax 1.5vmax 4vmax 1.5vmax;
-}
-
+  }
 }

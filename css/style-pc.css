@@ -1,6 +1,7 @@
 @media (min-width: 1024px){
     .container{
-        margin:0 5em;  
+        margin:0;  
+        padding: 0;
     }
 
     .header{
@@ -8,22 +9,32 @@
     }
 
     #nav ul, li, a{   
-        font-size: 2.0vw;
+        font-size: 2.2vw;
         padding: 0px 1vmax 0px 0.8vmax; 
     }
 
-    .Z-Rojo p{
-        font-size:  1.86vw;
+    .A a{
+        font-size: 2.6vw;  
+        padding:  3% 43.78% 3% 8%; 
     }
     
-    .Z-Rojo h5{
+     
+    .ZRp-1{
+        font-size:  2.2vw;
+    }
+    
+    .ZRt-1{
         font-size:  2.3vw;
     }
-
+    .t{
+        font-size:  3.2vw;
+        margin-top: 1.6vw;
+    }
+    
     .p{
-
-        font-size:  2.01vw;
-        line-height : 2.5vw;
+        font-size:  2.3vw;
+        line-height : 3.33vw;
+        margin: 1vmax 0vmax 2.4vmax 0vmax;
     }
 
     .p-2{
@@ -31,7 +42,5 @@
         line-height : 3.1vmin;
     }
 
-    .ZRp-2{
-        font-size:  2.15vw;
-    }
+
 }
